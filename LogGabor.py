@@ -142,12 +142,12 @@ def get_data(data_dir):
                 
     #data.append([train1, class_num])        
     return np.array(data)
-#train = get_data('C:/Users/lavan/flowers/train')
-train = get_data('C:/Users/lavan/Desktop/Gallery-visible_gabor/train_Normal')
+
+train = get_data('')
 
 
-#val= get_data('C:/Users/lavan/flowers/train')
-val = get_data('C:/Users/lavan/Desktop/Gallery-visible_gabor/test_coat')
+
+val = get_data('')
 
 # Data preprocessing
 x_train = []
